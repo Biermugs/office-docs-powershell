@@ -276,6 +276,7 @@ Default value: None
 Accept pipeline input: False
 Accept wildcard characters: False
 ```
+To remove an inactive mailboxes from a case hold policy, you need to use the primary SMTP address of the inactive mailbox, prepended with a period ("."). 
 
 ### -RemovePublicFolderLocation
 The RemovePublicFolderLocation parameter specifies that you want to remove all public folders from the case hold policy. You use the value All for this parameter.
